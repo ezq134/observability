@@ -8,9 +8,9 @@ spec:
     matchLabels:
       app: prometheus
   template:
-#    metadata:
-#      labels:
-#        app: prometheus   # This MUST match what's in base
+    metadata:
+      labels:
+        app: prometheus   # This MUST match what's in base
     spec:
       containers:
         - name: prometheus
