@@ -1,0 +1,8 @@
+resources:
+  - grafana-deployment.yaml
+  - grafana-service.yaml
+  - grafana-pvc.yaml
+  - grafana-pv.yaml  # remove if using dynamic provisioning
+
+commonLabels:
+  app: grafana
