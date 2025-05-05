@@ -1,2 +1,2 @@
 # observability
-Helm charts and Manifests for deploying Monitoring and Logging tools
+Kustomizations and Manifests for deploying Monitoring and Logging tools
