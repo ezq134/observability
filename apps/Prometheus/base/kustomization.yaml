@@ -1,6 +1,6 @@
 resources:
-  - configmap.yaml
-  - deployment.yaml
-  - service.yaml
-  - persistent-volume.yaml
-  - persistent-volume-claim.yaml
+  - prometheus-configmap.yaml
+  - prometheus-deployment.yaml
+  - prometheus-service.yaml
+  - prometheus-pv.yaml
+  - prometheus-pvc.yaml
