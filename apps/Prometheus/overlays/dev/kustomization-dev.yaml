@@ -1,0 +1,7 @@
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - patch-deployment.yaml
+
+namespace: observability-dev
